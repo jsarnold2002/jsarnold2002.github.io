@@ -1,0 +1,28 @@
+body {
+    position: fixed;
+    top: 10px;
+    right: 100px;
+    left: 10px; 
+    bottom: 100px;
+    background-image: url(../img/crop.jpeg);
+}
+
+.top-overlay-box{
+    position: fixed;
+    width: 300px;
+    height: 100 px;
+    background-color: blue;
+    color: blanchedalmond;
+    top: 10px;
+    left: 30px;
+}
+
+.bottom-overlay-box{
+    position: fixed;
+    width: 300px;
+    height: 100 px;
+    background-color: blue;
+    color: blanchedalmond;
+    bottom: 10px;
+    right: 30px;
+}
