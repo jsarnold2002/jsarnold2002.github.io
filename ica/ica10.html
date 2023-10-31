@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button type="button">Name: Chris</button>
+    <button onclick="changeBackground()">Click me to change background!</button>
+
+
+    <script>
+        //variables defined using 'const' or 'let'
+        const button = document.querySelector("button");
+
+        button.addEventListener('click', updateName);
+
+        function updateName(){
+            let name = prompt("Enter a new name");
+            button.textContent = `Name: ${name}`;
+        }
+        function changeBackground() {
+            document.body.style.backgroundColor = "lightblue";
+        }
+    </script>
+</body>
+</html>
